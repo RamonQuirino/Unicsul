@@ -17,6 +17,5 @@ public class TesteBanco {
       EntityManagerFactory factory = Persistence.createEntityManagerFactory("thePersistenceUnit");
       EntityManager theManager = factory.createEntityManager();
 
-
     }
 }

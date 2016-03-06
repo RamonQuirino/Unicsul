@@ -31,8 +31,16 @@
         <processorPath useClasspath="true" />
         <module name="TesteFX" />
       </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="H2DataBase" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="H2DataBase" target="1.5" />
       <module name="TesteFX" target="1.6" />
       <module name="TesteSwing" target="1.6" />
       <module name="Unicsul" target="1.5" />

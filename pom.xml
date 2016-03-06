@@ -11,6 +11,7 @@
     <modules>
         <module>TesteSwing</module>
         <module>TesteFX</module>
+        <module>H2DataBase</module>
     </modules>
 
 </project>
